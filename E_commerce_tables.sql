@@ -38,7 +38,3 @@ create table comments(creationTime Date,userId int,foreign key (userId) referenc
 	p_Id int,foreign key(p_Id) references product(p_Id),Grade Float,content varchar(500));
 create table servicepoint(sp_Id int not null primary key,streetAddr varchar(50),city varchar(20),
 	province varchar(20),startTime varchar(20),endTime varchar(20));
-
-
-
-00:08:19	INSERT INTO deliver_to VALUES(14,93042135,'2015-09-08')	Error Code: 1146. Table 'e_commerce_d.deliver_to' doesn't exist	0.0010 sec
