@@ -1,1 +1,1 @@
-# SQL_project
+# SQL_E_commerce
